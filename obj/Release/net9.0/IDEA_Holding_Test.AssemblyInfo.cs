@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IDEA_Holding_Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6de4844cc207cbcd5727bbf4b356e345ed4c9720")]
 [assembly: System.Reflection.AssemblyProductAttribute("IDEA_Holding_Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IDEA_Holding_Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
