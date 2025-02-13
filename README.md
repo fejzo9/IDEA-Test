@@ -60,12 +60,10 @@ dotnet run
 Aplikacija će raditi na: http://localhost:5059
 
 🎨 Funkcionalnosti
-✔️ Korisnička autentifikacija (login, registracija)
-✔️ Uloge korisnika (Admin, User, Anonymous)
-✔️ CRUD operacije za korisnike i ponude
-✔️ Pretraga i filtriranje korisnika i ponuda
-✔️ Radzen UI komponente (DataGrid, Notifikacije, Dialogs)
-
-
+- Korisnička autentifikacija (login, registracija)
+- Uloge korisnika (Admin, User, Anonymous)
+- CRUD operacije za korisnike i ponude
+- Pretraga i filtriranje korisnika i ponuda
+- Radzen UI komponente (DataGrid, Notifikacije, Dialogs)
 
 **Autor: Fejzullah Ždralović**
