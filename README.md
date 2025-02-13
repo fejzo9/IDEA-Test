@@ -59,4 +59,4 @@ dotnet run
 5) **Otvori u Browseru**
 Aplikacija će raditi na: http://localhost:5059
 
-Autor: Fejzullah Ždralović
+**Autor: Fejzullah Ždralović**
