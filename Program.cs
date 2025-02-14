@@ -1,7 +1,8 @@
-﻿using Radzen;
+﻿using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using IDEA_Holding_Test.Services;
+using Radzen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +25,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 
 
 // Dodat AuthenticationStateProvider za Blazor
-builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
+builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
+
 
 // Dodat UserManager i SignInManager
 builder.Services.AddScoped<UserManager<IdentityUser>>();
