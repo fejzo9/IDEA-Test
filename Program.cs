@@ -22,11 +22,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     .AddRoles<IdentityRole>()  // Dodata podrška za uloge
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// Dodat Radzen servise
-builder.Services.AddScoped<DialogService>();
-builder.Services.AddScoped<NotificationService>();
-builder.Services.AddScoped<TooltipService>();
-builder.Services.AddScoped<ContextMenuService>();
+
+// Dodat AuthenticationStateProvider za Blazor
+builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
+
+// Dodat UserManager i SignInManager
+builder.Services.AddScoped<UserManager<IdentityUser>>();
+builder.Services.AddScoped<SignInManager<IdentityUser>>();
 
 // Dodat Blazor Server servise
 builder.Services.AddRazorPages();

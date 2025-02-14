@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wMI87SfS3Ts=",
+  "dgSpecHash": "k70+FB1S7WU=",
   "success": true,
   "projectFilePath": "C:\\Users\\fejzo\\OneDrive\\Desktop\\Projekti\\10 - IDEA test proj\\IDEA_Holding_Test\\IDEA_Holding_Test.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\fejzo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.2\\microsoft.aspnetcore.authorization.9.0.2.nupkg.sha512",
     "C:\\Users\\fejzo\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.2\\microsoft.aspnetcore.components.9.0.2.nupkg.sha512",
     "C:\\Users\\fejzo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.2\\microsoft.aspnetcore.components.analyzers.9.0.2.nupkg.sha512",
+    "C:\\Users\\fejzo\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\9.0.2\\microsoft.aspnetcore.components.authorization.9.0.2.nupkg.sha512",
     "C:\\Users\\fejzo\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\9.0.2\\microsoft.aspnetcore.components.forms.9.0.2.nupkg.sha512",
     "C:\\Users\\fejzo\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.2\\microsoft.aspnetcore.components.web.9.0.2.nupkg.sha512",
     "C:\\Users\\fejzo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.2\\microsoft.aspnetcore.cryptography.internal.9.0.2.nupkg.sha512",
