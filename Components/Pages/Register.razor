@@ -1,0 +1,29 @@
+@page "/register"
+
+<h3>Register</h3>
+
+<RadzenTemplateForm TItem="RegisterModel" Submit="@RegisterUser">
+    <RadzenTextBox @bind-Value="model.Email" Placeholder="Email" />
+    <RadzenTextBox @bind-Value="model.Password" Type="password" Placeholder="Password" />
+    <RadzenTextBox @bind-Value="model.ConfirmPassword" Type="password" Placeholder="Confirm Password" />
+
+    <RadzenButton Text="Register" ButtonType="Submit" />
+</RadzenTemplateForm>
+
+<RadzenNotification @ref="notificationService" />
+
+@code {
+    private RegisterModel model = new();
+
+    async Task RegisterUser()
+    {
+        // Logika za registraciju korisnika
+    }
+
+    public class RegisterModel
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
+    }
+}
