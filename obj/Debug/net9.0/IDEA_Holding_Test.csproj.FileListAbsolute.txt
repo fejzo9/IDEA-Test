@@ -1,3 +1,13 @@
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.csproj.AssemblyReference.cache
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.AssemblyInfoInputs.cache
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.AssemblyInfo.cs
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.csproj.CoreCompileInputs.cache
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.RazorAssemblyInfo.cache
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.RazorAssemblyInfo.cs
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.sourcelink.json
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\bin\Debug\net9.0\appsettings.json
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\bin\Debug\net9.0\IDEA_Holding_Test.staticwebassets.runtime.json
@@ -98,14 +108,6 @@ C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\b
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.csproj.AssemblyReference.cache
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.AssemblyInfoInputs.cache
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.AssemblyInfo.cs
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.csproj.CoreCompileInputs.cache
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.sourcelink.json
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\scopedcss\bundle\IDEA_Holding_Test.styles.css
@@ -204,7 +206,7 @@ C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\o
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\hsgx6qbo9t-khy4lop6wu.gz
-C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\hxxjcvr73v-7ad87xoecb.gz
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\hxxjcvr73v-31208wm802.gz
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\jxsz1rma4v-bqjiyaj88i.gz
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\m2ifmm5te6-c2jlpeoesf.gz
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\compressed\hoeilxuus1-erw9l3u2r3.gz
@@ -260,6 +262,7 @@ C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\o
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.IDEA_Holding_Test.props
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.IDEA_Holding_Test.props
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Hol.1BDB784A.Up2Date
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.dll
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\refint\IDEA_Holding_Test.dll
