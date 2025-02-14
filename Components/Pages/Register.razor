@@ -1,8 +1,12 @@
 @page "/register"
+@inject UserManager<IdentityUser> UserManager
+@inject NavigationManager Navigation
+@inject SignInManager<IdentityUser> SignInManager
+@inject NotificationService NotificationService  
 
 <h3>Register</h3>
 
-<RadzenTemplateForm TItem="RegisterModel" Submit="@RegisterUser">
+<RadzenTemplateForm TItem="RegisterModel" Submit="RegisterUser">
     <RadzenTextBox @bind-Value="model.Email" Placeholder="Email" />
     <RadzenTextBox @bind-Value="model.Password" Type="password" Placeholder="Password" />
     <RadzenTextBox @bind-Value="model.ConfirmPassword" Type="password" Placeholder="Confirm Password" />
@@ -10,20 +14,37 @@
     <RadzenButton Text="Register" ButtonType="Submit" />
 </RadzenTemplateForm>
 
-<RadzenNotification @ref="notificationService" />
+<RadzenNotification @ref="NotificationService" />
 
 @code {
-    private RegisterModel model = new();
+    private RegisterModel model = new RegisterModel();  // Ispravljeno
 
     async Task RegisterUser()
     {
-        // Logika za registraciju korisnika
+        if (model.Password != model.ConfirmPassword)
+        {
+            NotificationService.Notify(NotificationSeverity.Error, "Passwords do not match!");
+            return;
+        }
+
+        var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+        var result = await UserManager.CreateAsync(user, model.Password);
+
+        if (result.Succeeded)
+        {
+            await SignInManager.SignInAsync(user, isPersistent: false);
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            NotificationService.Notify(NotificationSeverity.Error, "Registration failed!");
+        }
     }
 
     public class RegisterModel
     {
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string ConfirmPassword { get; set; }
+        public string Email { get; set; } = string.Empty;  // Ispravljeno
+        public string Password { get; set; } = string.Empty; // Ispravljeno
+        public string ConfirmPassword { get; set; } = string.Empty; // Ispravljeno
     }
 }
