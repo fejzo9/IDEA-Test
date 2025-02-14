@@ -77,3 +77,6 @@ C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\o
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.pdb
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.genruntimeconfig.cache
 C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\ref\IDEA_Holding_Test.dll
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.csproj.AssemblyReference.cache
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fejzo\OneDrive\Desktop\Projekti\10 - IDEA test proj\IDEA_Holding_Test\obj\Debug\net9.0\IDEA_Holding_Test.sourcelink.json
