@@ -1,56 +1,32 @@
-@using Microsoft.AspNetCore.Identity
-@using Microsoft.AspNetCore.Components
-@using Microsoft.AspNetCore.Components.Authorization
-@using Microsoft.AspNetCore.Components.Web
-@using Radzen
-
 @page "/register"
-@inject UserManager<IdentityUser> UserManager
-@inject NavigationManager Navigation
-@inject SignInManager<IdentityUser> SignInManager
-@inject NotificationService NotificationService  
 
 <h3>Register</h3>
 
-<RadzenTemplateForm Data="@model" Submit=@RegisterUser>
-    <RadzenTextBox @bind-Value="model.Email" Placeholder="Email" />
-    <RadzenTextBox @bind-Value="model.Password" Type="password" Placeholder="Password" />
-    <RadzenTextBox @bind-Value="model.ConfirmPassword" Type="password" Placeholder="Confirm Password" />
+<form>
+    <label>Email:</label>
+    <input type="email" @bind="model.Email" />
 
-    <RadzenButton Text="Register" ButtonType="Submit" />
-</RadzenTemplateForm>
+    <label>Password:</label>
+    <input type="password" @bind="model.Password" />
 
-<RadzenNotification />
+    <label>Confirm Password:</label>
+    <input type="password" @bind="model.ConfirmPassword" />
+
+    <button @onclick="RegisterUser">Register</button>
+</form>
 
 @code {
-    private RegisterModel model = new RegisterModel();  // Ispravljeno
+    private RegisterModel model = new();
 
     async Task RegisterUser()
     {
-        if (model.Password != model.ConfirmPassword)
-        {
-            NotificationService.Notify(NotificationSeverity.Error, "Passwords do not match!");
-            return;
-        }
-
-        var user = new IdentityUser { UserName = model.Email, Email = model.Email };
-        var result = await UserManager.CreateAsync(user, model.Password);
-
-        if (result.Succeeded)
-        {
-            await SignInManager.SignInAsync(user, isPersistent: false);
-            Navigation.NavigateTo("/");
-        }
-        else
-        {
-            NotificationService.Notify(NotificationSeverity.Error, "Registration failed!");
-        }
+        Console.WriteLine($"Email: {model.Email}, Password: {model.Password}");
     }
 
     public class RegisterModel
     {
-        public string Email { get; set; } = string.Empty;  // Ispravljeno
-        public string Password { get; set; } = string.Empty; // Ispravljeno
-        public string ConfirmPassword { get; set; } = string.Empty; // Ispravljeno
+        public string Email { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+        public string ConfirmPassword { get; set; } = string.Empty;
     }
 }
