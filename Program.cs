@@ -1,18 +1,18 @@
-﻿using Microsoft.AspNetCore.Components.Authorization;
+﻿using Microsoft.AspNetCore.Components.Server;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using IDEA_Holding_Test.Services;
 using Radzen;
+using IDEA_Holding_Test.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dodata konekcija sa bazom podataka
+// Povezivanje sa bazom
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
 
-// Dodat ASP.NET Core Identity
+// Konfiguracija ASP.NET Identity
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.Password.RequireDigit = false;
@@ -20,31 +20,31 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = false;
 })
-    .AddRoles<IdentityRole>()  // Dodata podrška za uloge
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-
-// Dodat AuthenticationStateProvider za Blazor
-builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
-
-
-// Dodat UserManager i SignInManager
+// Ispravna autentifikacija za Blazor Server u .NET 9
+builder.Services.AddScoped<AuthenticationStateProvider, ServerAuthenticationStateProvider>();
 builder.Services.AddScoped<UserManager<IdentityUser>>();
 builder.Services.AddScoped<SignInManager<IdentityUser>>();
 
-// Dodat Blazor Server servise
+// Radzen servisi
+builder.Services.AddScoped<DialogService>();
+builder.Services.AddScoped<NotificationService>();
+builder.Services.AddScoped<TooltipService>();
+builder.Services.AddScoped<ContextMenuService>();
+
+// Blazor Server servisi
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
 var app = builder.Build();
 
-// Konfiguracija middleware-a
 app.UseStaticFiles();
 app.UseRouting();
-app.UseAuthentication();  // Omogućena autentifikaciju
-app.UseAuthorization();   // Omogućena autorizaciju
+app.UseAuthentication();
+app.UseAuthorization();
 
-// Mapiranje Blazor i API ruta
 app.MapControllers();
 app.MapBlazorHub();
 app.MapFallbackToFile("index.html");
