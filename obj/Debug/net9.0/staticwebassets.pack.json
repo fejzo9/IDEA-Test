@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\fejzo\\OneDrive\\Desktop\\Projekti\\10 - IDEA test proj\\IDEA_Holding_Test\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
       "Id": "C:\\Users\\fejzo\\OneDrive\\Desktop\\Projekti\\10 - IDEA test proj\\IDEA_Holding_Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
